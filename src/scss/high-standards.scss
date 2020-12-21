@@ -1,0 +1,107 @@
+.high-standards {
+  padding: 100px 0 70px;
+  background: #F6F6F8;
+  .row {
+    padding-bottom: 90px;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: calc(100% - 30px);
+      margin: 0 auto;
+      height: 1px;
+      background: #E0E0E0
+    }
+    .text {
+      padding-top: 52px;
+      .title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 53px;
+        color: #323232;
+        margin-bottom: 40px;
+      }
+
+      .descr {
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        color: #999999;
+        max-width: 490px;
+      }
+
+      .fullInfo {
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration-line: underline;
+        color: #4985FF;
+      }
+    }
+
+    .img {
+      text-align: right;
+    }
+    .img img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+      border-radius: 30px;
+      max-width: 500px;
+    }
+  }
+  }
+  .result {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+
+    &.padding-helper{
+      padding-left: 100px;
+      padding-right: 100px;
+      justify-content: space-between;
+    }
+     .project {
+      display: flex;
+      flex-wrap: wrap;
+       max-width: 104px;
+       align-items: center;
+        justify-content: space-between;
+       width: 33.333%;
+       .image  {
+         max-width: 30px;
+         max-height: 30px;
+         object-fit: cover;
+         width: 100%;
+         height: 100%;
+      }
+          .text1 {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 36px;
+          line-height: 53px;
+          color: #000000;
+        }
+        .title1 {
+
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 25px;
+          color: #999999;
+        }
+      }
+    }
+
+
+
+
+
+

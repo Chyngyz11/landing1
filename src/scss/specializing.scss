@@ -1,0 +1,105 @@
+.specializing {
+  padding: 100px 0 85px;
+  background: linear-gradient(to top, #fff 50%, #504DC2 50%);
+
+  .row {
+    padding-bottom: 85px;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: calc(100% - 30px);
+      height: 1px;
+      background: #E0E0E0
+    }
+    .text{
+      display: flex;
+    .title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 53px;
+      color: #FFFFFF;
+      align-items: center;
+      justify-content: center;
+      max-width: 540px;
+    }
+    .button {
+      align-items: center;
+      max-width: 200px;
+      justify-content: space-between;
+
+      .press {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: #4985FF;
+        box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+        border-radius: 30px;
+        width: 200px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+      }
+    }
+    }
+  }
+  .analysis{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -15px;
+    .box {
+      margin-right: 30px;
+      .img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+
+        img {
+          max-width: 350px;
+          border-radius: 10px;
+        }
+      }
+
+      .analysis__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4985FF;
+        margin-top: 30px;
+      }
+
+      .subtitle {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        color: #999999;
+        margin: 30px 0 30px;
+        max-width: 300px;
+      }
+      .fullInfo a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration: underline;
+        color:  #4985FF;
+
+
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@import "../fonts/montserrat/stylesheet.css";
+@import "../libs/bootstrap/bootstrap-grid.min.css";
+@import "../libs/fontawesome/all.min.css";
+@import "../libs/my-icon/style.css";
+$colorWhite: #ffffff;
+@mixin other {
+         font-style: normal;
+          font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+@mixin button{
+  &:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: calc(100% - 30px);
+    height: 1px;
+    background: #E0E0E0
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  //border: 1px solid red;//
+}
+
+
+
+@import "header";
+@import "Home";
+@import "mobile-app";
+@import "high-standards";
+@import "specializing";
+@import "projects";
+@import "video";
+@import "news";
+@import "footer";
+@import "breakpoint 1200";
+@import "breakpoint 992";
+@import "breakpoint 768";
+
+
+
+

@@ -1,0 +1,31 @@
+.header{
+  position: absolute;
+  width: 100%;
+  padding: 40px 0;
+  border-bottom: 1px solid #A1A1A1;
+  .container{
+    .nav{
+      display: flex;
+      justify-content: flex-end;
+      .links{
+        @include other;
+        color: $colorWhite;
+        text-decoration: none;
+        margin-right: 40px;
+        position: relative;
+        &:last-child{
+          margin-right: 0;
+        }
+        &:hover:before{
+          content: '';
+          position: absolute;
+          bottom: -40px;
+          height: 2px;
+          width: calc(100% + 40px);
+          background: $colorWhite;
+          left: -20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.video {
+  padding: 70px 0 80px;
+}
+.video .text-box__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.video .text-box__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}

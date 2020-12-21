@@ -1,0 +1,44 @@
+@media (min-width: 768px) {
+  .mobile-app .row .wrapper{
+    justify-content: center;
+  }
+  .high-standards .row .text{
+    text-align: center;
+  }
+  .high-standards .row .text .descr{
+    max-width: 100%;
+  }
+  .high-standards .row .text .fullInfo{
+    text-align: center ;
+  }
+  .high-standards .row .img{
+    justify-content: center;
+  }
+  .result.padding-helper{
+    flex-wrap: wrap;
+  }
+  .specializing .analysis .box .img img{
+    max-width: 200px;
+  }
+  .specializing .analysis .box .analysis__title{
+    font-size: 15px;
+  }
+  .specializing .analysis .box .analysis__title{
+    font-size:10px
+  }
+  .projects .row .img img{
+  max-width:150px
+}
+  .footer__Body{
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+

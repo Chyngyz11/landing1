@@ -1,0 +1,64 @@
+.footer {
+  padding: 70px 0 30px;
+  background: #F6F6F8;
+  font-family: Montserrat;
+  &__Body {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    .icon-mail,.icon-tel,.icon-address{
+      margin-right: 10px;
+    }
+    .icon-check{
+      margin-right: 10px;
+    }
+    .address{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      color: #999999;
+    }
+    li {
+      list-style-type: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+    .title {
+      margin-bottom: 35px;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
+
+    }
+    .footerLi{
+      margin-bottom: 30px;
+      .Footer-a{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: #999999;
+      }
+    }
+
+  }
+&__subtitle{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 30px;
+  color: #999999;
+}
+
+
+}
+
+
